@@ -60,3 +60,32 @@
     color: rgb(110, 98, 98);
 }
 
+
+.contacto{
+    padding: 0rem;
+}
+.contenido-contacto{
+    width: 100%;
+}
+
+.contenido-contacto h1{
+    text-align: center;
+}
+.informacion-contacto{
+    
+    display: flex;
+    
+}
+
+
+
+.contacto-barcelona{
+    width: 100%;
+    text-align: center;
+}
+
+
+.contacto-madrid{
+    width: 100%;
+    text-align: center;
+}
