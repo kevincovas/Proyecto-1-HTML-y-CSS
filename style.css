@@ -1,0 +1,62 @@
+
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.contenedor{
+    width: 1200px;
+    
+}
+
+/*Barra de Navegacion*/
+.nav{
+  
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.nav_elemento{
+    padding: 2rem;
+    margin: 0rem 2rem;
+    color: rgb(110, 98, 98);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+/*Secciones*/
+.seccion{
+    margin: 4rem 4rem;
+    padding: 2rem;
+    display: flex;
+}
+
+.contenido{
+    width: 50%;
+    line-height: 1.7rem;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+
+.contenido p{
+    width: 80%;
+}
+
+
+.imagen-personal img{
+    width: 80%;
+    height: 95%;
+    border-radius: 20px;
+    /*padding: 1rem 1rem;*/
+}
+
+.separacion{
+    width: 85%;
+    color: rgb(110, 98, 98);
+}
+
