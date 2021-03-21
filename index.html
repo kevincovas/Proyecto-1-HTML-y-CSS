@@ -9,7 +9,7 @@
   </head>
 
   <body class="body">
-    <header class="contenedor header">
+    <header class="contenedor">
       <div class="nav">
         <a class="nav_elemento" href="index.html">Inicio</a>
         <a class="nav_elemento" href="#perfil-profesional"
@@ -20,7 +20,7 @@
       </div>
     </header>
 
-    <main class="main contenedor">
+    <main class="contenedor">
       <div class="seccion presentacion">
         <div class="contenido contenido-presentacion">
           <h1>Presentación</h1>
@@ -30,16 +30,24 @@
             profesional con la práctica de deportes de resistencia como son el
             atletismo, ciclismo y triatlón
           </p>
+          <br />
+          <h2>Formación</h2>
+          <ul>
+            <li>Diplomado en <b>Ciencias Empresariales</b></li>
+            <li>Licenciado en <b>ADE</b> por Abat Oliva CEU</li>
+            <li><b>MBA</b> en Administracion y Direccion de Empresas</li>
+          </ul>
+          <br />
         </div>
         <div class="imagen">
-          <img src="Julian 1.png" alt="Julian Imagen" />
+          <img src="imgs/foto-presentacion.jpeg" alt="Julian Imagen" />
         </div>
       </div>
 
       <hr class="separacion" />
 
       <div id="perfil-profesional" class="perfil-profesional seccion">
-        <div class="contenido contenido-profesional">
+        <div class="contenido-profesional">
           <h1>Perfil Profesional</h1>
           <p>
             <b>El punto de partida profesional</b> se sitúa en el año 1988
@@ -68,25 +76,17 @@
             y el profesional que le permita centrarse en su corebusinness
             ayudándole y estando cerca en su Negocio.
           </p>
-          <br />
-          <h2>Formacion</h2>
 
-          <ul>
-            <li>Diplomado en <b>Ciencias Empresariales</b></li>
-            <li>Licenciado en <b>ADE</b> por Abat Oliva CEU</li>
-            <li><b>MBA</b> en Administracion y Direccion de Empresas</li>
-          </ul>
-          <br />
           <h2>Servicios</h2>
           <p>Despachos profesionales en Barcelona, Madrid y Valencia</p>
           <ul>
-            <li>CONSULTORIA empresarial y ASESORIA FISCAL</li>
-            <li>Gestion LABORAL integral</li>
+            <li><b>CONSULTORIA</b> empresarial y <b>ASESORIA FISCAL</b></li>
+            <li>Gestion <b>LABORAL</b> integral</li>
             <li>Taller contable. Externalizacion de contabilidades</li>
-            <li>AUDITORIA de cuentas</li>
-            <li>Control de gestion y REPORTING</li>
-            <li>Informes PERICIALES. EXPERTOS contables judiciales</li>
-            <li>Area CONCURSAL</li>
+            <li><b>AUDITORIA</b> de cuentas</li>
+            <li>Control de gestion y <b>REPORTING</b></li>
+            <li>Informes <b>PERICIALES. EXPERTOS</b> contables judiciales</li>
+            <li>Area <b>CONCURSAL</b></li>
           </ul>
         </div>
       </div>
@@ -110,14 +110,14 @@
           </p>
         </div>
         <div class="imagen-personal">
-          <img src="julian-runner.png" alt="Julian Runner" />
+          <img src="imgs/julian-runner.png" alt="Julian Runner" />
         </div>
       </div>
 
       <hr class="separacion" />
 
       <div id="contacto" class="contacto seccion">
-        <div class=" contenido-contacto">
+        <div class="contenido-contacto">
           <h1>Contacto</h1>
           <div class="informacion-contacto">
             <div class="contacto-barcelona">
@@ -145,8 +145,40 @@
               </p>
             </div>
           </div>
+          <form class="form">
+            <ul>
+              <li>
+                <label for="name">Nombre: </label>
+                <input type="text" id="name" />
+              </li>
+              <li>
+                <label for="mail">Correo electrónico:</label>
+                <input type="email" id="mail" name="user_mail">
+              </li>
+              <li>
+                <label for="msg">Mensaje:</label>
+                <textarea id="msg" name="user_message"></textarea>
+              </li>
+              <li class="button">
+                <button type="submit">Envíe su mensaje</button>
+              </li>
+            </ul>
+          </form>
         </div>
       </div>
     </main>
   </body>
+
+  <hr class="separacion" />
+
+  <footer>
+    <div class="footer">
+      <a class="footer_elemento" href="index.html">Inicio</a>
+      <a class="footer_elemento" href="#perfil-profesional"
+        >Perfil Profesional</a
+      >
+      <a class="footer_elemento" href="#perfil-personal">Perfil Personal</a>
+      <a class="footer_elemento " href="#contacto">Contacto</a>
+    </div>
+  </footer>
 </html>
